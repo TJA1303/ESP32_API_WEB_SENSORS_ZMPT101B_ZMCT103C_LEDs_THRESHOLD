@@ -189,7 +189,7 @@ httpd_register_uri_handler(http_server_handle, &spiffs_view);
 
 
 <!-- CONTACT -->
-## Contact
+## Autor base
 
 Juan Sebastian Giraldo Duque - jsgiraldod@hotmail.com
 
