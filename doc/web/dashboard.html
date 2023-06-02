@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ESP32 Admin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src='jquery-3.3.1.min.js'></script>
+    <script async src="dashboard.js"></script>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Dashboard Project</h1>
+
+        <form id="dashboardForm" action="/cat" method="post">
+
+            <label for="threshold">Threshold</label>
+            <input type="text" id="threshold" name="threshold" placeholder="Digite el Threshold" required> <!--required es para que en el formulario sea obligatorio llenar el dato -->
+
+	        <hr>
+            <hr>
+
+		    <h2>ESP32 Interaction LED RGB</h2>
+
+            <label for="red_val">Led Red: </label>
+			<input type="text" id="red_val" name="red_val"  placeholder="red value" value="0" required>
+
+			<label for="green_val">Led Green: </label>
+            <input type="text" id="green_val" name="green_val"  placeholder="green value" value="0" required>
+
+			<label for="blue_val">Led Blue: </label>
+            <input type="text" id="blue_val" name="blue_val"  placeholder="blue value" value="0" required>
+
+
+            <div style="display: flex; align-items: center;">
+                <input type="submit" value="Execute">
+            </div>
+
+        </form>
+
+
+
+            <hr>
+            <hr>
+
+
+        <div id="sensor_dashboard">
+            <h2  class="special-heading">Sensors Data</h2>
+            
+            <div id="temperature_reading_div">
+                <label for="temperature_reading">Voltage: </label>
+                <span id="temperature_reading"></span>
+            </div>
+            
+            <div id="current_reading_div">
+                <label for="current_reading">Current: </label>
+                <span id="current_reading"></span>
+            </div>
+            
+            <div id="power_reading_div">
+                <label for="power_reading">Power: </label>
+                <span id="power_reading"></span>
+            </div> 
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
