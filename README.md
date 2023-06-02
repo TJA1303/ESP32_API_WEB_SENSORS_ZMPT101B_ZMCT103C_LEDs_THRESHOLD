@@ -30,9 +30,9 @@
     <br />
     <a href="https://www.screencast.com/t/HZxKga6CW">View Demo</a>
     ·
-    <a href="https://github.com/jsebgiraldo/ESP32-SMB-API/issues">Report Bug</a>
+    <a href="https://github.com/TJA1303/ESP32_API_WEB_SENSORS_ZMPT101B_ZMCT103C_LEDs_THRESHOLD/issues">Report Bug</a>
     ·
-    <a href="https://github.com/jsebgiraldo/ESP32-SMB-API/issues">Request Feature</a>
+    <a href="https://github.com/TJA1303/ESP32_API_WEB_SENSORS_ZMPT101B_ZMCT103C_LEDs_THRESHOLD/issues">Request Feature</a>
   </p>
 </div>
 
@@ -195,7 +195,7 @@ Juan Sebastian Giraldo Duque - jsgiraldod@hotmail.com
 
 Linkedin contact: [https://www.linkedin.com/in/juan-sebastian-giraldo-duque-25301718b/](https://www.linkedin.com/in/juan-sebastian-giraldo-duque-25301718b/)
 
-Project Link: [https://github.com/jsebgiraldo/ESP32-SMB-API/tree/main](https://github.com/jsebgiraldo/ESP32-SMB-API/tree/main)
+Project Link: [https://github.com/TJA1303/ESP32_API_WEB_SENSORS_ZMPT101B_ZMCT103C_LEDs_THRESHOLD](https://github.com/TJA1303/ESP32_API_WEB_SENSORS_ZMPT101B_ZMCT103C_LEDs_THRESHOLD)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
